@@ -1,4 +1,9 @@
-const DarkLayout = ({ children }) => {
+type DarkLayoutProps = {
+  children: JSX.Element[] | JSX.Element;
+}
+
+const DarkLayout = ({ children }: DarkLayoutProps) => {
+
   return (
     <div style={{
         padding: "1rem",

@@ -21,8 +21,7 @@ export default function AboutPage() {
 }
 
 // Optimizar mejor el codigo con layouts anidados
-AboutPage.getLayout = function getLayout (page) {
-  
+AboutPage.getLayout = function getLayout (page: JSX.Element) {  
   return (
     <MainLayout>
       <DarkLayout>
